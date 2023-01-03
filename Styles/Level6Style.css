@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#LevelName {
+    text-align: center;
+    font-size: 50px;
+}
+
+#puzzleContainer {
+    position: absolute;
+    right: 700px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+
+}
+  
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-gap: 2px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+
+.square {
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    font-size: auto;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: center;
+    background-color: white;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#counter {
+    display: inline-flex;
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+p {
+    text-align: center;
+}
+
+#Messages {
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+}
